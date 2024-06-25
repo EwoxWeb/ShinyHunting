@@ -1,0 +1,306 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------------------*/
+
+html{
+	margin: auto;
+	height: auto;
+	background-color: #333333;
+	font-family: Segoe UI Black;
+	box-shadow: inset 10px 10px 50px #2c2c2c, 
+    inset -10px -10px 50px #5c5c5c;
+}
+
+body{
+	text-align: center;
+	padding: 0;
+	background-color: #00675b;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	width: 1500px;
+	text-align: center;
+	margin: auto;
+	box-shadow: inset 10px 10px 50px #015C51, 
+    inset -10px -10px 50px #014F46;
+}
+
+h1{
+	text-align : center;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+nav{
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	text-align:center;
+	font-weight:bold;
+	font-size: 20px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+}
+
+td,th{
+	margin: auto;
+	text-align: center;
+    border: 1px solid black;
+}
+
+table{
+	margin: auto;
+	text-align: center;
+    border-collapse: collapse;
+}
+
+p{
+	text-align: justify;
+}
+
+.objets {
+	text-align: center;
+}
+
+h2{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+h3{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.masuda{
+	border-style: solid;
+	border-width: 5px;
+}
+
+.pokemon{
+	text-align: center;
+}
+
+.talents{
+	text-align: center;
+}
+
+.autre{
+	text-align: center;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+header li{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+header li a{
+	display: block;
+	padding: 20px;
+}
+
+header li:hover a {
+	background-color: #33D0FF;
+	color: #fff;
+}
+
+header li:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu{
+	display: none;
+	position: absolute;
+	background-color: #33D0FF;
+	width: 200px;
+}
+
+.sub-menu li {
+	display: block;
+}
+
+.sub-menu li a{
+	color: #fff;
+}
+
+.sub-menu li:hover a{
+	background-color: #fff;
+	color: #33D0FF;
+}
+
+table{
+	margin: auto;
+	font-weight: bold;
+	border-collapse : separate;
+ 	border-spacing : 10px;
+
+}
+
+th{
+	margin: auto;
+	text-align: center;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	background-color: #333333;
+	border-width: 3px;
+
+}
+
+td{
+	margin: auto;
+	text-align: center;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	background-color: aliceblue;
+	border-width: 3px;
+}
+
+.invisible{
+	border-width: 0px;
+	background-color: #00675b;
+}
+
+.container .bar:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.bar {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	margin-left: 25%;
+	margin-right: 25%;
+    background: #444;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px #2c2c2c, 
+    inset -5px -5px 10px #5c5c5c;
+}
+
+.bar-stat{
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+#html{
+    background: #d65c3d;
+    animation: htmlSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+#css{
+    background: #3755cc;
+    animation: cssSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+#js{
+    background: #d4a040;
+    animation: jsSlide 1.5s  cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+@keyframes htmlSlide{
+    0%{width: 0%;}
+    100%{width: 63.80%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+}
+
+@keyframes cssSlide{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+@keyframes jsSlide{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------------------*/
+/*Changer la couleur du fond du pokemon*/
+/*------------------------------------*/
+
+/* #ffc800 -> couleur de fond*/
+
+
+/*------------------------------------*/
+/*603 Pokemon trouvé sur 945*/
+/*------------------------------------*/
